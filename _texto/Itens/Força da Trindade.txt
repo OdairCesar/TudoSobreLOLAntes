@@ -1,0 +1,9 @@
++250 de Vida
++250 de Mana
++25 de Dano de Ataque
++40% de Velocidade de Ataque
++20% de Redução do Tempo de Recarga
++5% de Velocidade de Movimento
+
+Passivo ÚNICO - Fúria: Ataques básicos concedem 20 de Velocidade de Movimento por 2 segundos. Abates concedem 60 de Velocidade de Movimento. Esse efeito de Velocidade de Movimento é cortado pela metade em campeões de ataque à distância.
+Passivo ÚNICO - Lâmina Arcana: Após usar uma habilidade, o próximo ataque básico causa Dano Físico igual a 200% do Dano de Ataque base ao contato (1.5 s de Tempo de Recarga).

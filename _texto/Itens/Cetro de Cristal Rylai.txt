@@ -1,0 +1,11 @@
++400 de Vida
++100 de Poder de Habilidade
+
+Passivo ÚNICO: Habilidades e feitiços que causam dano aplicam uma redução de Velocidade de Movimento a inimigos com base no tipo da habilidade:
+
+Alvo único: 40% de redução por 1.5 segundos.
+Área de ação: 40% de redução por 1 segundos.
+Dano ao longo do tempo ou multi-alvos: 20% de redução por 1 segundos.
+Invocação de servos: 20% de redução por 1 segundos.
+
+(Se determinada habilidade se enquadra em mais de uma categoria, ela usa o menor valor de redução.)

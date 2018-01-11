@@ -1,0 +1,7 @@
++35% de Velocidade de Ataque
++30% de Chance de Acerto Crítico
++5% de Velocidade de Movimento
+
+Passivo: Movimentar-se e atacar deixará um dos ataques Energizado.
+
+Passivo ÚNICO - Gume Relâmpago: Seus ataques Energizados causam 50~120 de Dano Mágico adicional (com base no nível) a até 5 alvos ao contato (causa +120% de dano adicional a tropas e pode causar acerto crítico).

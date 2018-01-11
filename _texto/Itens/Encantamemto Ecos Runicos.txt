@@ -1,0 +1,6 @@
++60 de Poder de Habilidade
++7% de Velocidade de Movimento
+
+Passivo ÚNICO - Eco: Recebe cargas ao movimentar-se ou conjurar. Com 100 cargas, a próxima habilidade que acertar e causar dano consome todas as cargas para causar 60 (+10% do Poder de Habilidade) de Dano Mágico adicional a até 4 alvos ao contato.
+
+Esse efeito causa 250% de dano a monstros grandes. Atingir um monstro grande com esse efeito restaura 18% de sua Mana gasta.

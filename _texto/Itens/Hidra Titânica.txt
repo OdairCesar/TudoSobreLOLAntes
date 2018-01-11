@@ -1,0 +1,8 @@
++450 de Vida
++35 de Dano de Ataque
++100% de Regeneração de Vida base
+
+Passivo ÚNICO - Fenda: Ataques básicos causam 5 + 1% de sua Vida máxima como Dano Físico adicional a seu alvo e 40 + 2.5% de sua Vida máxima como Dano Físico a outros inimigos na área de cone, ao contato.
+Ativo ÚNICO - Crescente: O dano de Fenda a todos os alvos aumenta para 40 + 10% de sua Vida máxima como Dano Físico adicional em uma área de cone maior no seu próximo ataque básico (20 s de Tempo de Recarga).
+
+(Passivos Únicos com o mesmo nome não se acumulam.)

@@ -1,0 +1,7 @@
++300 de Vida
++60 de Poder de Habilidade
++10% de Redução do Tempo de Recarga
+
+Ativo ÚNICO - Disparo Flamejante: Avança em linha reta e desfere uma explosão cósmica de fogo que causa 75 - 150 (+35% de seu Poder de Habilidade) como Dano Mágico (40 s de Tempo de Recarga, compartilhado com outros itens Hextec).
+
+Campeões e monstros atingidos por múltiplos projéteis recebem 20% de dano por projétil adicional.

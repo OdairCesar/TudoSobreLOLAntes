@@ -1,0 +1,97 @@
+@charset="UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+hgroup#titulo-principal h1{
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 50pt;
+	text-align: center;
+	margin: 0px;
+	padding: 23px;
+}
+hgroup#titulo-principal h2{
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 15pt;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+}
+hgroup#titulo-conteudo h2{
+	margin: 0px;
+	padding: 0px;
+	font-size: 15pt;
+	font-family: 'Titillium Web', sans-serif;
+}
+hgroup#titulo-conteudo h1{
+	margin-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	font-family: 'Fjalla One', sans-serif;
+}
+hgroup#titulo-tier h2{
+	color: red;
+	font-size:13pt;
+}
+hgroup#titulo-tier h1{
+	border-top:1px solid;
+	padding-top: 15px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+article#artigo-do-conteudo p{
+	font-size: 12pt;
+	text-indent: 50px;
+	text-align: justify;
+}
+article#texto-lateral{
+	background:rgba(230,230,230,.8);
+	padding: 0px 5px 5px 5px;
+	margin-bottom: 5px;
+}
+article#texto-lateral h1{
+	font-size: 15pt;
+	font-family: 'Fjalla One', sans-serif;
+}
+article#texto-lateral h2{
+	font-size: 15pt;
+	font-family: 'Titillium Web', sans-serif;
+	color: #666;
+	padding-bottom: 3px;
+	margin-bottom: 3px;
+	background-color: rgb(145,145,255);
+}
+article#texto-lateral h3{
+	font-family: Arial;
+	font-size: 12pt;
+	font-family: 'Titillium Web', sans-serif;
+	padding-bottom:0px;
+	margin-bottom:0px;
+	padding-top: 5px;
+	margin-top: 5px;
+}
+article#texto-lateral h4{
+	padding-bottom:0px;
+	margin-bottom:0px;
+}
+article#texto-lateral p{
+	margin: 0px;
+	padding: 0px;
+	font-size: 10pt;
+	color: black;
+	font-family: 'PT Sans', sans-serif;
+}
+article#texto-lateral span{
+	font-family: none;
+	color: #666;
+	font-size: 8pt;
+	vertical-align: middle;
+	font-weight: lighter;
+}
+footer#informacao-meta p{
+	color: rgba(0,0,128,.8);
+	text-align:center;
+	font-size: 11pt;
+}

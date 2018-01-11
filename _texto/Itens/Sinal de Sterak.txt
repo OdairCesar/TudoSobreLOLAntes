@@ -1,0 +1,6 @@
++400 de Vida
++25% de Dano de Ataque base
+
+Passivo ÚNICO - Salva-Vidas: Ao receber entre 400 e 1800 de dano (com base no nível) dentre 5 segundos, recebe um escudo de decaimento rápido com 30% de sua Vida máxima por 8 segundos (60 s de Tempo de Recarga).
+
+Fúria de Sterak: Quando Salva-Vidas for acionado, aumenta em tamanho e força, recebendo +25% de Dano de Ataque base adicional.

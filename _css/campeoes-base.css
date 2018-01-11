@@ -1,0 +1,379 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Della+Respira');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+body{
+	background-image: url(../_imagens/imagens-index/papel-site.jpg);
+	background-repeat: round;
+	background-attachment: fixed;
+	padding: 0px;
+	margin: 0px;
+}
+
+div#interface-segundaria{
+	background-color: rgba(32,26,26,.8);
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+div#espaco-menu{
+	width: 1000px;
+	position: relative;
+	background-color: #fff;
+	height: 35px;
+	padding: 0px;
+	margin:0px auto 0px auto;
+}
+
+nav#menu{
+	box-shadow:0px 2px 3px black;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	background-color: #fff;
+	display: block;
+	position: fixed;
+	width: 1000px;
+	z-index: 9999;
+	height: 35px;
+}
+nav#menu ul{
+	width: 730px;
+	height: 35px;
+	list-style: none;
+	text-transform: uppercase;
+	margin: 0px auto 0px auto;
+}
+nav#menu li{
+	display: inline-block;
+	background-color: #fff;
+	padding: 7px 15px 7px 15px;
+	margin: 0px 5px 0px 5px;
+	border-left: 2px groove #963;
+	border-right: 2px groove #963;
+}
+nav#menu a{
+	text-decoration: none;
+	color:black;
+}
+nav#menu h1{
+	position: absolute;
+	opacity: 0;
+}
+
+div#cabecalho{
+	background-color: #999;
+	padding: 5px;
+	margin-top: -10px;
+	height: 150px;
+	width:970px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+hgroup#titulo-principal img{
+	width: 210px;
+	height: 150px;
+	float: right;
+	margin-top:-126px;
+	margin-right: -5px;
+}
+
+hgroup#titulo-principal h1{
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 45pt;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+hgroup#titulo-principal h2{
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 15pt;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+div#iframe-table{
+	width: 940px;
+	height: 320px;
+	margin: 18px auto 0px auto;
+}
+
+iframe#gameplay{
+	background-color: rgb(200,200,200);
+	width: 550px;
+	height: 310px;
+	float: left;
+	margin-bottom: auto;
+	margin-top: auto;
+	padding: 5px;
+	transition: all .6s ease-in;
+	box-shadow: 5px 5px 5px rgba(0,0,0,.7);
+}
+iframe#gameplay:hover{
+	transform: scale(1.2);
+}
+div#detalhe{
+	width: 350px;
+	height: 305px;
+	float: right;
+	padding: 5px;
+	background-color: rgb(230,230,230);
+	box-shadow: 2px 0px 3px black;
+	border: double black;
+}
+
+div#detalhe img{
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 10px;
+}
+hgroup#titulo{
+	border-bottom: 2px groove black;
+}
+hgroup#titulo h1{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Titillium Web', sans-serif;
+}
+hgroup#titulo p{
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 7px;
+	font-family:'Open Sans Condensed', sans-serif;
+}
+
+table#tabela-campeao{
+	height: 200px;
+	width: 340px;
+	background-color: rgb(128,255,128);
+	border-spacing: 0px;
+	margin: 5px auto 0px auto;
+}
+table#tabela-campeao td{
+	padding: 3px;
+	font-size: 12pt;
+}
+table#tabela-campeao td.te{
+	text-align: right;
+	color: rgb(0,0,255);
+	font-family: 'Indie Flower', cursive;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+table#tabela-campeao td.td{
+	border-bottom: 1px solid black;
+	color: rgb(0,0,128);
+}
+div#conteudo-campeao{
+	width: 930px;
+	background-color: rgba(230,230,230,.8);
+	box-shadow: 0px 2px 5px white;
+	padding: 5px;
+	margin: 15px auto 0px auto;
+}
+section#conteudo-esquerda{
+	width: 620px;
+	float: left;
+}
+iframe#video{
+	background-color: rgb(255,255,255);
+	margin: 10px 28px 10px 28px;
+	width: 550px;
+	height: 310px;
+	padding: 4px;
+	border: 1px solid rgb(0,0,0);
+	box-shadow: 1px 1px 5px black;
+}
+div#HeH{
+	width: 620px;
+	margin: 0px 0px 10px 0px;
+	box-shadow: 2px 2px 3px black;
+	background-color: rgb(230,230,230);
+}
+article#texto-campeao h1{
+	background-color: rgba(0,0,0,.8);
+	width: 620px;
+	padding: 0px;
+	margin: 0px;
+	text-indent: 50px;
+	color: white;
+	font-size: 20pt;
+	font-family: 'Titillium Web', sans-serif;
+}
+article#texto-campeao h2{
+	text-indent: 10px;
+	border-top: 2px solid rgb(150,150,150);
+	font-size: 18pt;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+article#texto-campeao h2.execao{
+	margin: 0px;
+	padding: 0px;
+	border-top: none;
+}
+article#texto-campeao h3{
+	text-align: right;
+	padding: 0px;
+	margin: 5px 0px;
+	font-size: 10pt;
+	color: rbg(95,95,95);
+}
+article#texto-campeao p{
+	margin: 0px;
+	padding: 5px;
+	text-indent: 35px;
+	text-align: justify;
+	font-size: 12pt;
+	font-family: 'PT Sans', sans-serif;
+}
+article#texto-campeao p:first-letter{
+	font-size: 15pt;
+	font-weight: 700;
+}
+article#texto-campeao span{
+	font-weight: 700;
+}
+article#texto-campeao p.det{
+	text-indent: 10px;
+	padding: 5px;
+	font-weight: bolder;
+	border: none;
+}
+figure#icone-hab{
+	width: 600px;
+	height: 90px;
+	margin: 0px 0px 5px 10px;
+	padding: 0px;
+}
+figure#icone-hab img{
+	background-color: rgb(150,150,150);
+	padding: 2px;
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin: 0px;
+	box-shadow: 0px 6px 4px black;
+}
+figure#icone-hab figcaption{
+	height: 90px;
+	margin: 0px;
+	padding: 0px;
+}
+figure#icone-hab figcaption p{
+	text-indent: 10px;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 12pt;
+	margin: 0px;
+}
+aside#extra{
+	padding: 2px;
+	width: 300px;
+	float:right;
+}
+div#counter{
+	background-color: rgb(230,230,230);
+	box-shadow: 2px 2px 3px black;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	width: 300px;
+	height: 213px;
+}
+div#counter h1{
+	background-color: rgb(70,70,70);
+	font-family: 'Slabo 27px', serif;
+	color: rgb(0,0,0);
+	text-align: center;
+	text-shadow: 1px 1px 5px white;
+	margin: 0px;
+	padding: 0px 0px 0px 10px;
+}
+div#itens{
+	background-color: rgb(230,230,230);
+	box-shadow: 2px 2px 3px black;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	width: 300px;
+	height: 405px;
+}
+div#itens h1{
+	background-color: rgb(70,70,70);
+	font-family: 'Slabo 27px', serif;
+	color: rgb(0,0,0);
+	text-align: center;
+	text-shadow: 1px 1px 5px white;
+	margin: 0px;
+	padding: 0px 0px 0px 10px;
+}
+figure#icone-extra{
+	background-color: #fff;
+	width: 300px;
+	height: 86px;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+}
+figure#icone-extra img{
+	background-color: rgb(60,60,60);
+	padding: 3px;
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin: 0px;
+	transition: background-color 1s;
+}
+figure#icone-extra img:hover{
+	background-color: rgb(0,0,0);
+	transform: scale(1.03);
+}
+figure#icone-extra figcaption{
+	width: 300px;
+	height: 90px;
+	margin: 0px;
+	padding: 0px;
+}
+figure#icone-extra figcaption h1{
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20pt;
+}
+figure#icone-extra figcaption a{
+	text-decoration: none;
+	color: black;
+	transition: background-color 2s;
+}
+figure#icone-extra figcaption a:hover{
+	color: blue;
+}
+footer#informacao-meta{
+	background-color: rgb(230,230,230);
+	border-top: 2px groove white;
+	clear: both;
+	width: 930px;
+	height: 55px;
+}
+footer#informacao-meta p{
+	color: rgba(0,0,128,.8);
+	text-align:center;
+	font-size: 11pt;
+}
+footer#informacao-meta a{
+	color: rgb(0,0,0);
+	text-decoration: none;
+}

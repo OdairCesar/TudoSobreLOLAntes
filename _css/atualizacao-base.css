@@ -1,0 +1,315 @@
+@charset="UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Della+Respira');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+body{
+	background-image: url(../_imagens/imagens-index/papel-site.jpg);
+	background-repeat: round;
+	background-attachment: fixed;
+	padding: 0px;
+	margin: 0px;
+}
+/*Conteudo Padrão das Paginas*/
+div#interface-segundaria{
+	background-color: rgba(32,26,26,.8);
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+div#espaco-menu{
+	width: 1000px;
+	position: relative;
+	background-color: #fff;
+	height: 35px;
+	padding: 0px;
+	margin:0px auto 0px auto;
+}
+div#interface{
+	background-color: rgba(32,26,26,.8);
+	height: 1050px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+nav#menu{
+	box-shadow:0px 2px 3px black;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	background-color: #fff;
+	display: block;
+	position: fixed;
+	width: 1000px;
+	z-index: 9999;
+	height: 35px;
+}
+nav#menu ul{
+	width: 730px;
+	height: 35px;
+	list-style: none;
+	text-transform: uppercase;
+	margin: 0px auto 0px auto;
+}
+nav#menu li{
+	display: inline-block;
+	background-color: #fff;
+	padding: 7px 15px 7px 15px;
+	margin: 0px 5px 0px 5px;
+	border-left: 2px groove #963;
+	border-right: 2px groove #963;
+}
+nav#menu a{
+	text-decoration: none;
+	color:black;
+}
+nav#menu h1{
+	position:absolute;
+	opacity: 0;
+}
+div#cabecalho{
+	background-color: #999;
+	padding: 5px;
+	margin-top: -10px;
+	height: 150px;
+	width:970px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+hgroup#titulo-principal h1{
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 50pt;
+	text-align: center;
+	margin: 0px;
+	padding: 23px;
+}
+hgroup#titulo-principal h2{
+	color: black;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 15pt;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+}
+hgroup#titulo-principal img{
+	width: 210px;
+	height: 150px;
+	float: right;
+	margin-top:-126px;
+	margin-right: -5px;
+}
+/*Conteudo da Pagina*/
+div#conteudo-padrao{
+	display: inline-block;
+	width:940px;
+	margin: 25px 25px 0px 25px;
+	background-color:rgb(230,230,230);
+	padding: 5px 5px 0px 5px;
+}
+nav#filtros{
+	border-bottom: 2px groove white;
+	height: 60px;
+	width: 930px;
+	margin: 5px;
+	padding: 0px;
+	float: left;
+}
+nav#filtros ul{
+	width: 750px;
+	padding: 0px;
+	margin: 5px auto 5px auto;
+	list-style: none; 
+}
+nav#filtros li{
+	background-color: rgb(65,65,65);
+	font-weight: bold;
+	font-size: 12pt;
+	padding: 10px;
+	display: inline-block;
+	margin: 0px 5px 0px 5px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: background-color 2s;
+}
+nav#filtros li:hover{
+	background-color: white;
+}
+nav#filtros a{
+	text-decoration: none;
+	color: #fff;
+}
+nav#filtros a:hover{
+	color: black;
+}
+nav#guia{
+	margin: 0px -5px 0px 
+	625px;
+	width: 320px;
+	height: 44px;
+	padding: 0px;
+	background-color: rgb(230,230,230);
+}
+nav#guia ul{
+	border-bottom: 2px solid black;
+	margin: 0px;
+	list-style: none;
+	width: 300px;
+	height: 42px;
+	float: right;
+}
+nav#guia li{
+	background-color: rgb(150,150,150);
+	padding: 14px 7px 0px 7px;
+	margin: 5px 1px 0px 0px;
+	font-size: 15pt;
+	font-family: sans-serif;
+	color: white;
+	display: inline-block;
+	border-radius: 15px 5px 0px 0px;
+}
+nav#guia a{
+	text-decoration: none;
+	color: white;
+	transition: 1s;
+}
+nav#guia a:hover{
+	color: black;
+}
+figure#icone-atualizacao{
+	width: 420px;
+	height: 120px;
+	margin: 5px;
+	padding: 5px;
+	background-color: rgb(145,145,255);
+}
+figure#icone-atualizacao img{
+	width: 120px;
+	height: 120px;
+	float: left;
+}
+figure#icone-atualizacao img.borda{
+	width: 110px;
+	height: 110px;
+	padding: 6px;
+	background-color: rgba(0,0,0,.8);
+	border-radius: 15px 15px 15px 15px;
+}
+figure#icone-atualizacao figcaption{
+	width: 295px;
+	height: 120px;
+	float: right;
+}
+figure#icone-atualizacao figcaption h1{
+	font-family: 'Della Respira', serif;
+	font-size: 15pt;
+	padding: 0px;
+	margin: 0px;
+	text-indent: 50px;
+}
+figure#icone-atualizacao figcaption p{
+	font-family: 'PT Sans', sans-serif;
+	color: #222;
+	font-size: 11pt;
+}
+div#divicao-artigos{
+	background-color: rgb(180,180,180);
+	width: 440px;
+	float: left;
+	margin: 5px;
+	padding: 5px;
+	border: 5px groove rgb(255,166,255);
+	transition: all .5s ease-in;
+	box-shadow: 0px 2px 5px rgb(0,0,0);
+}
+div#divicao-artigos:hover{
+	transform: scale(1.15);
+}
+div#divicao-artigos-direita{
+	background-color: rgb(180,180,180);
+	width: 440px;
+	float: right;
+	margin: 5px;
+	padding: 5px;
+	border: 5px groove rgb(255,166,255);
+	transition: all .5s ease-in;
+	box-shadow: 0px 2px 5px rgb(0,0,0);
+}
+div#divicao-artigos-direita:hover{
+	transform: scale(1.15);
+}
+article#artigo-camp-atualizacao h1{
+	font-family: 'Della Respira', serif;
+	font-size: 13pt;
+	margin: 5px;
+}
+article#artigo-camp-atualizacao h1.h-um{
+	font-size: 20pt;
+	background-color: rgb(230,230,230);
+	padding: 5px;
+	margin-bottom: -30px;
+}
+article#artigo-camp-atualizacao h1.hnvo{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 13pt;
+	font-weight: normal;
+	background-color: rgb(80,80,80);
+	color: white;
+	margin: 0px -5px;
+	padding: 0px 5px;
+}
+article#artigo-camp-atualizacao h2.h-dois{
+	padding: 5px;
+	margin: 0px -5px 10px -5px;
+	color: rgb(106,0,213);
+	background-color: rgb(50,50,50);
+	text-transform: uppercase;
+	text-indent: 30px;
+	font-family: sans-serif;
+	font-size: 20pt;
+	text-shadow: 0px 2px 2px black;
+}
+article#artigo-camp-atualizacao h2{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 12pt;
+	background-color: rgb(80,80,80);
+	color: white;
+	padding: 0px;
+	text-transform: none;
+	text-indent: 50px;
+	text-shadow: none;
+}
+article#artigo-camp-atualizacao p{
+	font-family: 'PT Sans', sans-serif;
+	text-indent: 50px;
+	font-size: 10pt;
+	margin: 0px;
+	padding: 0px;
+}
+article#artigo-camp-atualizacao span{
+	font-family: none;
+	color: #666;
+	font-size: 8pt;
+	vertical-align: middle;
+	font-weight: lighter;
+}
+footer#informacao-meta p{
+	color: rgba(0,0,128,.8);
+	text-align:center;
+	font-size: 11pt;
+}
+footer#informacao-meta{
+	width: 940px;
+	background-color: rgb(230,230,230);
+	border-top: 2px groove white;
+	clear: both;
+	margin:0px auto;
+	padding: 5px;
+}
